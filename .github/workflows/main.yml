@@ -16,6 +16,11 @@ jobs:
           repository: Andreikap23/Shadowrocket-Rules-For-Russia
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set up Git configuration
+        run: |
+          git config --global user.email andreikap23@gmail.com
+          git config --global user.name Andreikap23
+
       - name: Set up upstream
         run: |
           git remote add upstream https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever.git
