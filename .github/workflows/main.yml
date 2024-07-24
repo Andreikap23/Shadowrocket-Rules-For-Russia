@@ -20,8 +20,8 @@ jobs:
         run: |
           git remote add upstream https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever.git
           git fetch upstream
-          git checkout release
-          git merge upstream/release
+          git checkout release || git checkout -b release
+          git merge upstream/release --allow-unrelated-histories
           git push origin release
 
       - name: Remove existing AdBlocker.list
