@@ -24,6 +24,11 @@ jobs:
           git merge upstream/release --allow-unrelated-histories
           git push origin release
 
+      - name: Verify branch and status
+        run: |
+          git status
+          git branch
+
       - name: Remove existing AdBlocker.list
         run: |
           if [ -f AdBlocker.list ]; then
