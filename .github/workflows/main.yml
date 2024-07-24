@@ -28,11 +28,11 @@ jobs:
         run: |
           if [ -f AdBlocker.list ]; then
             rm AdBlocker.list
-          fi     
-          
+          fi
+
       - name: Duplicate and rename file
         run: |
           cp sr_ad_only.conf AdBlocker.list
           git add AdBlocker.list
           git commit -m "Add AdBlocker.list"
-          git push origin main          
+          git push origin main
