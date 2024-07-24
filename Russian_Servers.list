@@ -1,0 +1,31 @@
+# Shadowrocket: 2024-07-24 09:20:45
+
+# Russian Banks
+DOMAIN-SUFFIX,sberbank.ru
+DOMAIN-SUFFIX,vtb.ru
+DOMAIN-SUFFIX,gazprombank.ru
+DOMAIN-SUFFIX,psbank.ru
+DOMAIN-SUFFIX,rshb.ru
+
+# Russian Social Media
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,ok.ru
+DOMAIN-SUFFIX,rutube.ru
+DOMAIN-SUFFIX,mail.ru
+DOMAIN-SUFFIX,ya.ru
+DOMAIN-SUFFIX,yandex.ru
+
+# Other Popular Russian Services
+DOMAIN-SUFFIX,mail.yandex.ru
+DOMAIN-SUFFIX,360.yandex.ru
+DOMAIN-SUFFIX,zen.yandex.ru
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,mail.ru
+DOMAIN-SUFFIX,kinopoisk.ru
+DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,wildberries.ru
+
+# domains with .ru
+DOMAIN-SUFFIX,ru
+DOMAIN-KEYWORD,yandex
+GEOIP,RU
