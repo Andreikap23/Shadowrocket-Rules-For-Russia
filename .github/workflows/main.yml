@@ -24,7 +24,7 @@ jobs:
           git merge upstream/main
           git push origin main
 
-           - name: Remove existing AdBlocker.list
+      - name: Remove existing AdBlocker.list
         run: |
           if [ -f AdBlocker.list ]; then
             rm AdBlocker.list
