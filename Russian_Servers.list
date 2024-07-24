@@ -26,6 +26,6 @@ DOMAIN-SUFFIX,ozon.ru
 DOMAIN-SUFFIX,wildberries.ru
 
 # domains with .ru
-#DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,ru
 DOMAIN-KEYWORD,yandex
 GEOIP,RU
